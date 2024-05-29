@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : Zwine 
+ * Github : @Mirsmog
+ * 
+ * Colors
+ **/
+
+* {
+    background:     #191724ff;
+    background-alt: #26233AFF;
+    foreground:     #e0def4ff;
+    selected:       #EBBCBAFF;
+    active:         #eb6f92ff;
+    urgent:         #31748fFF;
+}

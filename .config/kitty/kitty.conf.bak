@@ -1,0 +1,28 @@
+font_family      Cascadia Code SemiBold
+font_size 	 13.0
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+background_opacity 1
+
+confirm_os_window_close 0
+wheel_scroll_multiplier 1
+enable_audio_bell no
+window_padding_width 12
+
+
+# cursor #cccccc
+# cursor_text_color #111111
+cursor_shape block
+cursor_beam_thickness 1.5
+cursor_underline_thickness 2.0
+#include Nightfox.conf
+include owl.conf
+
+
+
+# BEGIN_KITTY_THEME
+# Rosé Pine Moon
+#include current-theme.conf
+# END_KITTY_THEME
