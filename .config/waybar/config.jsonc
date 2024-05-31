@@ -1,7 +1,7 @@
 {
   "position": "top",
   "reload_style_on_change": true,
-  "height": 36,
+  "height": 30,
   "spacing": 0,
   "margin-bottom": 0,
   "modules-left": ["cpu", "memory", "tray"],
@@ -12,14 +12,14 @@
     "interval": 1,
     "format": "{icon} {usage}%",
     "format-icons": [
-      "<span color='#e0def4'></span>", // green
-      "<span color='#e0def4'></span>", // blue
-      "<span color='#9ccfd8'></span>", // white
-      "<span color='#9ccfd8'></span>", // white
-      "<span color='#c4a7e7'></span>", // yellow
-      "<span color='#c4a7e7'></span>", // yellow
-      "<span color='#f6c177'></span>", // orange
-      "<span color='#eb6f92'></span>" // red
+      "<span color='#e0def4'></span>",
+      "<span color='#e0def4'></span>",
+      "<span color='#9ccfd8'></span>",
+      "<span color='#9ccfd8'></span>",
+      "<span color='#c4a7e7'></span>",
+      "<span color='#c4a7e7'></span>",
+      "<span color='#f6c177'></span>",
+      "<span color='#eb6f92'></span>"
     ],
     "on-click": "killall htop || kitty --class global-float-big -e htop"
   },
@@ -28,14 +28,14 @@
     "interval": 1,
     "format": "{icon} {percentage}%",
     "format-icons": [
-      "<span color='#e0def4'></span>", // green
-      "<span color='#e0def4'></span>", // blue
-      "<span color='#9ccfd8'></span>", // white
-      "<span color='#9ccfd8'></span>", // white
-      "<span color='#c4a7e7'></span>", // yellow
-      "<span color='#c4a7e7'></span>", // yellow
-      "<span color='#f6c177'></span>", // orange
-      "<span color='#eb6f92'></span>" // red
+      "<span color='#e0def4'></span>",
+      "<span color='#e0def4'></span>",
+      "<span color='#9ccfd8'></span>",
+      "<span color='#9ccfd8'></span>",
+      "<span color='#c4a7e7'></span>",
+      "<span color='#c4a7e7'></span>",
+      "<span color='#f6c177'></span>",
+      "<span color='#eb6f92'></span>"
     ],
     "tooltip": true,
     "tooltip-format": "Memory - {used:0.1f}GB used",
@@ -67,8 +67,8 @@
 
   "hyprland/language": {
     "format": "{}",
-    "format-en": "🇺🇸",
-    "format-ru": "🇷🇺"
+    "format-en": "US",
+    "format-ru": "RU"
   },
 
   "network": {
@@ -80,7 +80,7 @@
     "interval": 2,
     "tooltip": true,
     "on-click-right": "python ~/.config/rofi/network/network.py",
-    "format-alt": "<span foreground='#9ccfd8'>{bandwidthDownBytes}</span> <span foreground='#c4a7e7'> {bandwidthUpBytes}</span>",
+    "format-alt": "<span foreground='#9ccfd8'> {bandwidthDownBytes}</span> <span foreground='#c4a7e7'> {bandwidthUpBytes}</span>",
 
     "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>"
   },

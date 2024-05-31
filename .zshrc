@@ -108,3 +108,6 @@ source $ZSH/oh-my-zsh.sh
 alias vi="nvim"
 alias nvpn="~/.local/bin/nekoray/launcher"
 alias ff="fastfetch"
+alias ya="yarn"
+alias hyprshot="$HOME/.local/bin/hyprshot"
+alias nvpn="/usr/local/bin/nekoray/launcher"

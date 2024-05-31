@@ -1,12 +1,10 @@
 #workspaces {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #workspaces button {
-  font-size: 16px;
-  margin: 6px;
+  margin: 0px 6px;
   padding: 0px 4px;
-  border-bottom: 2px solid @text;
 }
 
 #workspaces button * {
@@ -17,33 +15,28 @@
 #workspaces button.persistent {
   color: @text;
   padding: 0px 4px;
-  margin: 6px;
-  border-bottom: solid 2px transparent;
+  margin: 0px 6px;
   font-size: inherit;
 }
 
 #workspaces button.special {
   color: @text;
   margin: 6px 12px;
-  border-color: transparent;
 }
 
 #workspaces button.special.active {
-  border-color: transparent;
 }
 #workspaces button.empty {
   color: @textDawn;
+  color: #393552;
 }
 
 #workspaces button:hover {
   color: @text;
-  border-color: @text;
 }
 
 #workspaces button.active {
-  color: @pine;
-  border-color: @pine;
-  transition: color 0.2s ease-in;
+  color: @love;
 }
 
 #workspaces button.active:hover {

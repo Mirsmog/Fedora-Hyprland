@@ -1,8 +1,8 @@
 /* @ignore */
-@import "./themes/rose-pine.css";
-@import "./modules/styles/global.css";
-@import "./modules/styles/tray.css";
-@import "./modules/styles/workspaces.css";
+@import './themes/rose-pine.css';
+@import './modules/styles/global.css';
+@import './modules/styles/tray.css';
+@import './modules/styles/workspaces.css';
 .modules-left * {
   margin-left: 12px;
 }
@@ -12,9 +12,6 @@
   border-radius: 100%;
 }
 
-.modules-right * {
-  margin-right: 12px;
-}
 .modules-right * {
   margin-right: 16px;
 }
@@ -27,6 +24,9 @@
   font-size: inherit;
 }
 
+#network {
+  font-size: 11px;
+}
+
 #language {
-  font-size: 15px;
 }

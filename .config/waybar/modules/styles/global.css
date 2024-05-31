@@ -1,6 +1,6 @@
 * {
   all: initial;
-  font-family: "Cascadia Code", "Font Awesome 6 Pro";
+  font-family: 'Cascadia Code', 'Font Awesome 6 Pro';
   font-weight: bold;
   font-size: 12px;
   min-height: 0;
@@ -10,7 +10,7 @@
 window#waybar {
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: rgba(35, 33, 54, 0.85);
+  background-color: rgba(31, 71, 88, 0.6);
 }
 
 tooltip {

@@ -13,7 +13,7 @@ return {
         hide_gitignored = true,
         hide_by_name = {
           "node_moduels",
-          -- '.git',
+          ".git",
           -- '.DS_Store',
           -- 'thumbs.db',
         },

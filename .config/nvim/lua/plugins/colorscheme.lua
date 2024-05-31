@@ -5,8 +5,11 @@ return {
   priority = 1000,
   opts = function()
     return {
+      variant = "main",
       styles = {
-        transparentcy = true,
+        bold = true,
+        italic = true,
+        transparency = false,
       },
     }
   end,
